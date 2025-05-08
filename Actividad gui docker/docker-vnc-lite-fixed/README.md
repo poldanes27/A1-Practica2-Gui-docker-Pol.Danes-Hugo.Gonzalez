@@ -1,16 +1,14 @@
-# Docker Ubuntu + LXDE + VNC + Python + SSH
+# Docker Ubuntu
 
-Aquest contenidor ofereix un Ubuntu amb escriptori gràfic lleuger LXDE via VNC, amb suport per Python i connexió remota per SSH.
-
-## 🔧 Requisits
+## Requisits
 
 - Docker
-- Client VNC (Remmina)
+- Client VNC
 - Port forwarding configurat a VirtualBox:
   - 5901 → VNC
   - 2222 → SSH
 
-## 🚀 Instruccions
+## Instruccions
 
 ### Construir la imatge
 
